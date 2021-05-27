@@ -1,0 +1,20 @@
+{
+	"name": "nebulae",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"repository": "https://github.com/mathletedev/nebulae.git",
+	"author": {
+		"name": "mathletedev",
+		"email": "mathletedev@gmail.com"
+	},
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"dotenv-safe": "^8.2.0",
+		"eris": "^0.15.1",
+		"eris-sharder": "^1.10.0"
+	},
+	"devDependencies": {
+		"@types/eris-sharder": "^1.10.0"
+	}
+}
