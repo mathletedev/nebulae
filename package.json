@@ -15,6 +15,7 @@
 		"eris-sharder": "^1.10.0"
 	},
 	"devDependencies": {
-		"@types/eris-sharder": "^1.10.0"
+		"@types/eris-sharder": "^1.10.0",
+		"@types/node": "^16.10.3"
 	}
 }

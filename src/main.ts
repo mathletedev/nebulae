@@ -7,7 +7,10 @@ class Bot extends Base {
 	}
 
 	public async launch() {
-		this.bot.editStatus("dnd");
+		this.bot.editStatus("dnd", {
+			type: 1,
+			name: "your demise"
+		});
 
 		const target = process.argv[2];
 		const amount = process.argv[3];
